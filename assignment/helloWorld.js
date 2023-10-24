@@ -1,0 +1,1 @@
+console.log("I'm just Ken. Anywhere else I'd be a ten.");
