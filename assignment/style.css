@@ -1,13 +1,40 @@
-/* Add a background color to the header element */
 
-/* Add a fun background color to the main element */
+/* DONE:Add a background color to the header element */
+header {
+    background-color: lightskyblue;
+}
+/* DONE:Add a fun background color to the main element */
+main {
+    background-color: darkorange;
+    padding: 25px;
+}
+/* DONE:Align the h1 containing your name in the center of the header*/
+h1 {
+    text-align: center;
+}
+/* DONE:Make your p tag a different color and italic */
+p {
+    color: aqua;
+    font-style: italic;
+}
 
-/* Align the h1 containing your name in the center of the header*/
+li {
+    font-family: Arial, Helvetica, sans-serif;
+}
 
-/* Make your p tag a different color and italic */
+/* DONE:Put a border around your image */
 
-/* Put a border around your image */
-
-/* Change the font-family of your list */
+/* DONE:Change the font-family of your list */
 
 /* Add a background color to the footer element */
+
+footer {
+    padding: 25px;
+    background-color: darkgreen;
+}
+
+img {
+    border: 5px solid lightskyblue;
+    max-width: 300px;
+    margin-top: 50px;
+}
