@@ -1,21 +1,22 @@
 # Type your responses on a new line
 
 # 1 - What is the command for listing the files in the current folder (directory)?
-
+pwd, print working directory.
 # 2 - What is the command for changing directories?
-
+cd, change directory.
 # 3 - What is the command for going "up" a folder (to a parent directory)?
-
+.. takes you to the parent directory.
 # 4 - What is a quick way to create a new folder?
-
+mkdir, make directory. Ex, mkdir TierOne-Assignments
 # 5 - What output would you expect when you run the command 'ls' in an empty folder? What about a folder containing files?
-
+There will be no result if you command ls in an empty directory. If the directory has child directories or files of any kind, these will be listed by the ls command. 
 # 6 - What is a quick way to create a new file?
-
+touch, makes a new file. Ex, touch illustration_final_05.psd
 # 7 - Run 'git --version' in your terminal. What is the output?
-
+git version 2.33.0
 # 8 - Why would you run the command 'git status'?
-
+git status tells you what files have not been "saved" to be uploaded to GitHub. It will tell you which files are different from the ones it has on file, or if new files have been created.  This indicates that you need to commit these changes.
 # 9 - What does the command 'git add .' do?
-
+Once you run the git add . command, any files that the status indicates are different will be updated and ready to be commited.
 # 10 - What is the command to push your committed changes to your repo on GitHub?
+git push origin main is the command that will add all committed changes to your repo on GitHub. Origin indicates the web address, and main indicates the main branch these saves are being committed to. 
